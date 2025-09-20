@@ -33,3 +33,12 @@ func printName() {
 	firstName := "Michel"
 	fmt.Println(firstName)
 }
+
+/*
+--------------------------Output-----------------------------
+Age:  0 Name:  John Name1:  Jane Count:  10  LastName:  Smith
+Cane
+Cane Updated
+Michel
+--------------------------Output-----------------------------
+*/

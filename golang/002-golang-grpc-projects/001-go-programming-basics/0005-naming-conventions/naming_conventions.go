@@ -33,3 +33,9 @@ func main() {
 	var employeeID = 1001
 	fmt.Println("EmployeeID: ", employeeID)
 }
+
+/*
+---------Output----------
+EmployeeID:  1001
+---------Output----------
+*/

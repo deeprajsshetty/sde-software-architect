@@ -13,3 +13,7 @@ func main()  {
 		thursday int = 4
 	)
 }
+
+/*
+No Outputs
+*/

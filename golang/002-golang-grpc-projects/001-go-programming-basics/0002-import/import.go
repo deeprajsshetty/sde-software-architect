@@ -18,3 +18,10 @@ func main() {
 
 	fmt.Println("HTTP Response Status:", resp.Status)
 }
+
+/*
+------------Output------------
+Hello, Go Standard Library
+HTTP Response Status: 200 OK
+------------Output------------
+*/

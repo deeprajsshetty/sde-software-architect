@@ -11,3 +11,14 @@ func main() {
 	fmt.Println(true || false)
 	fmt.Println(!true)
 }
+
+/*
+------Output----------
+Hello, World!
+9 * 10 =  90
+180.18/2.0 =  90.09
+false
+true
+false
+------Output----------
+*/
