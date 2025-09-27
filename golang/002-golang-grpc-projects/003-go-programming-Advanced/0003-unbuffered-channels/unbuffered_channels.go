@@ -1,0 +1,40 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+
+	ch := make(chan int)
+
+	go func ()  {
+		time.Sleep(3 * time.Millisecond)
+		fmt.Println(<-ch)
+		fmt.Println("3 second Goroutine finished")	
+	}()
+	ch <- 1
+
+	// go func() {
+	// 	time.Sleep(2 * time.Second)
+	// 	fmt.Println("2 second Goroutine finished")
+	// }()
+	// go func() {
+	// 	// ch <- 1
+	// 	time.Sleep(3 * time.Second)
+	// 	fmt.Println("3 second Goroutine finished")
+	// }()
+	// receiver := <-ch
+	// fmt.Println(receiver)
+
+	fmt.Println("End of program.")
+}
+
+/*
+----------Output-----------
+1
+3 second Goroutine finished
+End of program.
+----------Output-----------
+*/
